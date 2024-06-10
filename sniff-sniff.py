@@ -28,4 +28,4 @@ def packet_callback(packet):
         logging.info(packet_info)
 
 # Sniff packets on a specific interface (replace "eth0" with your network interface)
-sniff(prn=packet_callback, iface="wlan0", store=0)
+sniff(prn=packet_callback, iface="eth0", store=0)
